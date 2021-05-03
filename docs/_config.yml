@@ -29,6 +29,17 @@ url: "https://hnc-jihoon.github.io" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
 
+# custom variables
+assets: "/test-blog/assets"
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post-with-comments"
+
 # Build settings
 theme: minima
 plugins:
