@@ -17,6 +17,6 @@ author: dongmin
 <mark>모두 파이팅하세요!</mark>
 
 ```
-![malangmalang]({{ site.assets }}/2021/04/21/malangmalang.jpg){: width="400px" }
+![malangmalang]({{ site.assets }}/2021/05/04/malangmalang.jpg){: width="400px" }
 ```
 
