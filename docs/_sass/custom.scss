@@ -1,0 +1,20 @@
+
+.site-header {
+  background-color: rgba(64, 37, 223, 0.575);
+
+  .gnb {
+    height: 64px;
+    margin: 0 0 94px;
+    padding: 19px auto 19px 340px;
+    opacity: 0.2;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+    background-color: #000000;
+
+    .BI_white {
+      width: 206.3px;
+      height: 26px;
+      margin: 0 19.7px 0 0;
+      object-fit: contain;
+    }
+  }
+}
