@@ -15,6 +15,11 @@ layout: default
 
   {%- if site.posts.size > 0 -%}
     <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
+
+    <div id="search-by-google" style="height: 50px;">
+      {% include search-google.html %}
+    </div>
+
     <ul class="post-list">
       {%- for post in site.posts -%}
       <li>
