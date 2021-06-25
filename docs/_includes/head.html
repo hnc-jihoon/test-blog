@@ -3,7 +3,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="google-site-verification" content="AwEWx-_WcYmp9cpvpq0E3QVybhM4Wnk2msC4gXRLBS4" />
-  <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+  <title>{{ site.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
+  <link rel="apple-touch-icon" sizes="360x360" href="{{ '/assets/site-images/yaya.png' | relative_url }}">
   {%- feed_meta -%}
   {%- if jekyll.environment == 'production' and site.google_analytics -%}
     {%- include google-analytics.html -%}
