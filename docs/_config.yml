@@ -48,6 +48,10 @@ algolia:
   index_name: 'hnc-jihoon-test-blog'
   search_only_api_key: '02df8e14f685772cd71df87757d431b7'
 
+header_pages:
+  - about.markdown
+  - search.html
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
