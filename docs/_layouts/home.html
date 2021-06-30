@@ -15,6 +15,10 @@ layout: default
       {% include search-google.html %}
     </div>
 
+    <div id="search-by-lunr">
+      {% include search-lunr.html %}
+    </div>
+
     <ul class="post-list">
       {%- for post in site.posts -%}
       <li>
